@@ -1,5 +1,8 @@
-a = int(input('Введите диапазон   '))
-y=1
-while y <=a:
-	print(f'y = {y**2}')
-	y+=1
+import os
+os.system('cls||clear')
+text = str(input('Введите слово:  '))
+a=0
+for i in text:
+	print(i,end=" ")
+	a+=1
+	print(a)

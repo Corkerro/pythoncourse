@@ -1,14 +1,5 @@
-dict={
-    'user_0':{
-        'name':'Alexey',
-        'surname':'Kosenko',
-        'housenumber':14.5,
-        'yourage':14
-        },
-    'user_1'{
-        'name':'Illia',
-        'surname':'Katerinych',
-        'housenumber':13.7,
-        'yourage':15
-        }
-    }
+dictName={'Illia':18, 'Maksym':20, 'Den':24, 'Roma':7}
+print(dictName['Maksym'])
+print(dictName.values())
+for i, j in dictName.items():
+    print(f"{i}'s age - {j}")

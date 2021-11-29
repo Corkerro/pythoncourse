@@ -1,3 +1,5 @@
-def greet_user():
-	print('Hello')
-greet_user()
+while True:
+	name = input('Введите имя:   ')
+	if name == 'хватит':
+		break
+	print(f'Привет, {name}')

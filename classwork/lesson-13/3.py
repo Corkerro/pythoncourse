@@ -1,5 +1,8 @@
-dictName={'Illia':18, 'Maksym':20, 'Den':24, 'Roma':7}
-print(dictName['Maksym'])
-print(dictName.values())
-for i, j in dictName.items():
-    print(f"{i}'s age - {j}")
+dimensions = (200, 50) 
+print("Original dimensions:") 
+for dimension in dimensions: 
+  print(dimension) 
+dimensions = (400, 100) 
+print("\nModified dimensions:") 
+for dimension in dimensions: 
+  print(dimension)

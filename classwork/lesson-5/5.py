@@ -1,10 +1,6 @@
-import random
-for i in range(10):
-    
-    summ=0
-    cort = {random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10)}
-    print(cort)
-    for i in cort:
-        if i>=5 and i<=10:
-          summ=summ+i
-    print(summ)
+a = int(input('Введите первое число   '))
+if a > 15:
+    a = a + 7
+else:
+    a = a - 5
+print(a)

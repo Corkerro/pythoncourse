@@ -1,7 +1,15 @@
-a = int(input('Введите ваш вклад   '))
-p = float(input('Введите %   '))
-m = int(input('Введите месяц   '))
-if m > 12:
-    S = a + a * p / 100
-    print(S)
-else: print(a)
+a=int(input('a='))
+b=int(input('b='))
+print('delenie', a/b)
+print('delenie s ostatkom', a//b)
+print('delenie bez ostatka', a%b)
+
+a=float(input('a='))
+b=float(input('b='))
+print('a>b'a>b)
+print('a<b'a<b)
+print('a=b'a==b)
+
+name=str(input('your name: '))
+print('Я ', name, ' програмист Ucode')
+

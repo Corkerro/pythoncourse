@@ -1,10 +1,7 @@
-x = int(input('Введите х    '))
-b = int(input('Введите b    '))
-if x <= -2:
-    if b >=0:
-        answer = 3*x^2-8*b
-    else:
-        answer = -9*x^2-12*b
-else:
-    answer = 32 + x
-print(answer)
+a = int(input('Введите ваш вклад   '))
+p = float(input('Введите %   '))
+m = int(input('Введите месяц   '))
+if m > 12:
+    S = a + a * p / 100
+    print(S)
+else: print(a)

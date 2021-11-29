@@ -1,3 +1,6 @@
-a = int(input('Введите диапазон   '))
-for i in range(1,a+1):
-    print(f'y = {i**2}')
+a=str(input('Word: '))
+b=0
+for i in a:
+     print(i, end=' ', '\n')
+     b+=1
+print(b,'Symvols')

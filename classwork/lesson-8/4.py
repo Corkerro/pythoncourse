@@ -1,7 +1,11 @@
-prompt = '\nПривет! Меня зовут БОТ, я хочу узнать о тебе все:'
-prompt += "\nВведите 'out' для завершения программы"
-prompt += "\nВведите ваше имя:   "
-message = ""
-while message != "out":
-	message= input(f'\n{prompt}')
-	print(f'Привет, круто что тебя {message}')
+n=int(input('Введите n:   '))
+s=0
+d=1
+for i in range(1,n+1,2):
+	s = s+i
+print(s)
+s=0
+while d <=n:
+	s = s +d
+	d+=2
+print(s)

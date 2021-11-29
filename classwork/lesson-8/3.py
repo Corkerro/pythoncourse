@@ -1,7 +1,11 @@
-a = "Мне нужно немного информации о тебе"
-
-a += "\nСкажи пожалуйста, как тебя зовут?"
-
-name = input(a)
-
-print(f"\nHello, {name}!")
+n=int(input('Введите n:   '))
+s=0
+d=1
+for i in range(1,n+1):
+	s = s+i
+print(s)
+s=0
+while d <=n:
+	s = s +d
+	d+=1
+print(s)

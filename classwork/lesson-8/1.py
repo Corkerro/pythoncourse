@@ -1,5 +1,3 @@
-while True:
-	name = input('Введите имя:   ')
-	if name == 'хватит':
-		break
-	print(f'Привет, {name}')
+a = int(input('Введите диапазон   '))
+for i in range(1,a+1):
+    print(f'y = {i**2}')

@@ -1,7 +1,17 @@
+a = float(input('Введите первое число   '))
+b = float(input('Введите второе число   '))
+if a < b:
+    a = 0
+    b = 1
+else:
+    b = 0
+    a = 1
+print(f'Первое число: {a}, а второе: {b}')
 
-T=[2.3, 4.5, 3.5, 10.3, 5]
-b=T[0]
-for i in T:
-    if i > b:
-        b = i
-print(f'Через цикл: {b}')
+al = ['1','2','3','4']
+i = 0
+while i < 3:
+    pp = i
+    oo = i
+    print('del_pp',pp,f'al.pop({oo})')
+    

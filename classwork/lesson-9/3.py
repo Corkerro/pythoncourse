@@ -1,4 +1,7 @@
-def greet_user(username):
-	print(f'Привет, {username.title()}')
-name = input('Введите ваше имя -->  ')
-greet_user(name)
+a = "Мне нужно немного информации о тебе"
+
+a += "\nСкажи пожалуйста, как тебя зовут?"
+
+name = input(a)
+
+print(f"\nHello, {name}!")
