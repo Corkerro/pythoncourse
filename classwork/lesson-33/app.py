@@ -38,4 +38,4 @@ def show_animal_info_cat(name,spec,sound):
 show_animal_info('ordinary animal','I`m an - ordinary animal','Grrr!')
 show_animal_info_dog('dog','I`m an - dog','Woof! Woof!')
 show_animal_info('cat','I`m an - cat','Meow!')
-
+show_animal_info('book','I`m a book','hey')
